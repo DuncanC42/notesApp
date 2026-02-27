@@ -3,6 +3,12 @@
 ## Roadmap
 
 1. Setup NPM project
+```sh
+npm init -y
+npm i express@4.19.2 mongoose@8.5.1 body-parser@1.20.2 --save-exact
+npm i --save-exact --save-dev nodemon@3.1.4
+```
+
 2. Dockerize backend
 3. Setup docker-compose for Notebooks services
 4. Setup docker-compose for Notes services

@@ -1,0 +1,30 @@
+{
+  "name": "notesapp",
+  "version": "1.0.0",
+  "description": "1. Setup NPM project ```sh",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuncanC42/notesApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DuncanC42/notesApp/issues"
+  },
+  "homepage": "https://github.com/DuncanC42/notesApp#readme",
+  "dependencies": {
+    "body-parser": "1.20.2",
+    "express": "4.19.2",
+    "mongoose": "8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.4"
+  }
+}
