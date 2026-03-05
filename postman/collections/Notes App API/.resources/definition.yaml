@@ -1,0 +1,13 @@
+$kind: collection
+name: Notes App API
+description: |-
+  API collection for the Notes App project containing endpoints from:
+  - notes-backend (port 3001)
+  - notebooks-backend (configurable port)
+variables:
+  - key: baseUrl_notes
+    value: 'http://localhost:3001'
+    description: Base URL for the notes-backend service
+  - key: baseUrl_notebooks
+    value: 'http://localhost:3000'
+    description: Base URL for the notebooks-backend service

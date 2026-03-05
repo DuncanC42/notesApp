@@ -1,0 +1,4 @@
+$kind: collection
+name: Notebooks Service
+description: Endpoints for the notebooks-backend service (MongoDB-backed)
+order: 2000

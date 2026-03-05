@@ -1,0 +1,4 @@
+$kind: collection
+name: Notes Service
+description: Endpoints for the notes-backend service
+order: 1000
