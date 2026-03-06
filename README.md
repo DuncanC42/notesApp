@@ -13,6 +13,10 @@ npm i --save-exact --save-dev nodemon@3.1.4
 3. Setup docker-compose for Notebooks services
 4. Setup docker-compose for Notes services
 5. Use multistage build for our images
+```shell
+docker build -t notes-backend:dev --target=development .
+```
+
 6. Merging multiple projects in docker compose
 7. Implement Nginx reverse proxy
 8. Establish connection between services
