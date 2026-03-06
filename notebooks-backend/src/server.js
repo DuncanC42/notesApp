@@ -15,6 +15,6 @@ mongoose.connect(process.env.DB_URL).then(() => {
     console.error(err);
 })
 
-app.get('/', (req, res) => {
+app.get('/api/notebooks', (req, res) => {
     res.json({message: "Hello world from notebooks"});
 });
