@@ -23,7 +23,7 @@ services:
   notes-db:
     image: mongodb/mongodb-community-server:7.0-ubuntu2204
     ports:
-      - "22017:22017"
+      - "22018:22017"
     env_file:
       - .env
     volumes:
